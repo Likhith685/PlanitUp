@@ -1,30 +1,34 @@
-/* navbar.css */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
+}
+  p{
+    color:whitesmoke;
   }
-  
+  p:hover{
+    color: green;
+  }
   .nav-1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #282c34;
     padding: 1rem 2rem;
     color: white;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
-  
-  .nav-2 h1 {
-    margin: 0;
-    font-size: 1.8rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: color 0.3s ease;
+  .nav-2{
+    display: flex;
+    align-items: center;
+    gap:15px;
+  }
+  .nav-2 img {
+    width: 75px;
+    height: 50px;
+    margin-left: 30px;
   }
   
-  .nav-2 h1:hover {
-    color: #61dafb;
-  }
+  
+  
   
   .nav-3, .nav-4 {
     display: flex;
@@ -38,10 +42,6 @@ body {
     transition: color 0.3s ease;
   }
   
-  .nav-3 p:hover, .nav-4 p:hover {
-    color: #61dafb;
-  }
-  
   .nav-3 p, .nav-4 p {
     padding: 0.5rem;
   }
@@ -51,32 +51,24 @@ body {
   }
   
   .nav-4 p {
-    border: 1px solid white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
     transition: background-color 0.3s ease;
   }
   
-  .nav-4 p:hover {
-    background-color: #e8f4f8;
-    border-color: #61dafb;
+  .link {
+    text-decoration: none; 
+    color: inherit;
   }
-  
-  @media (max-width: 768px) {
-    .nav-1 {
-      flex-direction: column;
-      padding: 1rem;
-    }
-  
-    .nav-3, .nav-4 {
-      flex-direction: column;
-      gap: 0.5rem;
-      margin-top: 1rem;
-    }
-  
-    .nav-4 p {
-      width: 100%;
-      text-align: center;
-    }
+  .user-profile{
+    display: flex;
+    height: 50px;
+    gap: 20px;
   }
+  .user-profile img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+}
   
