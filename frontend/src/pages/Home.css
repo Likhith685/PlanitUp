@@ -31,4 +31,18 @@ html {
   font-weight: 300;
   font-size: 15px;
 }
-  
+
+.idli{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  color: white;
+}
+.imlimli{
+  color: rgb(194, 194, 185);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 196px;
+  transition: 0.5s;
+}
