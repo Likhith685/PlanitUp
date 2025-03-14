@@ -1,12 +1,12 @@
 import React from 'react'
+import "./navbar.css"
 
 const Navbar = () => {
   return (
     <div className='nav-1'>
         
         <div className='nav-2'>
-          {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiuOj8Wa-TJOWJ8DSZxfQ_ShwGrTuIvh04mA&s" alt="" /> */}
-          <h1>Eventico</h1>
+          <h1>PlanitUp</h1>
         </div>
         <div className='nav-3'>
              <p>Home</p>
